@@ -1,0 +1,27 @@
+<?php
+/**
+ *
+ * @package WordPress
+ * @subpackage hodghurstv1
+ * @since Hodhurst Version 1
+ Template Name: Generic Template
+ */
+
+get_header(); ?>
+
+<div class="container">
+	<div class="white-bar generic-page">
+		<div class="padded-content">
+		
+			<div class="wrapper-100">
+			<?php if (have_posts()) : while (have_posts()) : the_post();?>
+				<div class="edit"><?php edit_post_link('Edit this', '', ''); ?></div>
+				<?php the_content(); ?>
+			<?php endwhile; endif; ?>
+			</div>
+		
+		</div>
+	</div>
+</div>
+
+<?php get_footer(); ?>

@@ -1,0 +1,49 @@
+<?php
+/**
+ *
+ * @package WordPress
+ * @subpackage Celebrations2
+ * @since Celebrations In Focus 2.0
+ */
+
+get_header(); ?>
+
+  <div class="wrapper">
+	    <section class="slider">
+			<ul class="bxslider">
+				<?php if( function_exists('bxslider') ) bxslider('486'); ?>
+			</ul>
+		</section>
+	</div>
+	<div class="content-wrapper">
+		<div class="wrapper">
+			<section class="intro center">
+				<p><strong>Liz Howard </strong>and <strong>Catherine Evans</strong> are professional, qualified, female wedding photographers. Although based on the borders of Shropshire, Wales and Herefordshire, they have travelled to beautiful locations such as St Audries Park, Taunton, Orchardleigh House, Frome, St. David’s Hotel in Cardiff Bay and even Snowdonia to capture some stunning weddings.</p>
+			</section>
+			<section class="sub-boxes">
+				<article class="box">
+					<a href="#">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/pre-weddings.jpg" alt="Pre Wedding Photography"/>
+						<h2 class="scriptina white">Pre-weddings</h2>
+					</a>
+				</article>
+				<article class="box">
+					<a href="#">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/weddings.jpg" alt="Wedding Photography"/>
+						<h2 class="scriptina white">Weddings</h2>
+					</a>
+				</article>
+				<article class="box">
+					<a href="#">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/portraits.jpg" alt="Portraits Photography"/>
+						<h2 class="scriptina white">Portraits</h2>
+					</a>
+				</article>
+			</section>
+		</div>
+	</div>
+	<div class="push"></div>
+</div> <!--! end of #container -->
+
+
+<?php get_footer(); ?>
