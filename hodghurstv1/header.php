@@ -41,8 +41,8 @@
                 <a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="Hodghurst Farm Logo"/></a>
             </div>
 
-            <p class="h1">Shropshire Hills Traditional Free Range Meat</p>
-            <p class="h3">We produce, process, pack and even deliver it to you if you live locally</p>
+            <!-- <p class="h1">Hodghurst Farm</p> -->
+            <p class="h3" style="margin-top:20px;">Shropshire hills home of miniature Hereford cattle,<br/>Shropshire and blue faced Leicester sheep</p>
         </div>
         <div class="brown-bar">
             <nav class="mainMenu">

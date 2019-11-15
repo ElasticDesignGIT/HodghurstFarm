@@ -1378,3 +1378,31 @@ td figure img  {
 td h3 {
   text-align:center;
 }
+
+
+.stock-listing {
+	float:left;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.stock-listing li {
+	width:100%;
+	float:left;
+  margin:0 0 12px 0;
+  list-style:none;
+  text-align: center;
+}
+
+.stock-listing li img {
+  width:100%;
+  border: 2px solid #000;
+}
+
+@media (min-width:768px) {
+	.stock-listing li {
+		width:calc(33% - 12px);
+		margin:0 12px 12px 0;
+	}
+}
